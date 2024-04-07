@@ -37,7 +37,7 @@
     </header>
 
     <p> Hola, mi nombre es Tomás Garcia. Soy estudiante en la Tecnicatura de Programación en la UTN</p>
-    <p> Actualmente trabajo en el sector de sistemas y programación de DER Distribuciones,<br> donde colaboro en el desarrollo de aplicaciones y paginas web, proyectos para automatizaciones con Python,<br>brindo soporte IT a distintos sectores y tambien soporte técnico a usuarios.</p>
+    <p> Actualmente trabajo en el sector de sistemas y programación de DER Distribuciones,<br> donde colaboro en el desarrollo de aplicaciones y paginas web, proyectos para automatizaciones con Python.<br>Además brindo soporte IT a distintos sectores y tambien soporte técnico a usuarios.</p>
     
 
     <main>  
@@ -58,6 +58,7 @@
     height="140"
     title=".Net framework"
     >
+    <!-- loading="lazy"  para cargar imagenes cuando sea necesario -->
     <img src="imagenhtml/python.png"
     width="150"
     height="140"
@@ -93,8 +94,28 @@
             name="name"
             placeholder="Nombre">
         </label>
-        </fieldset>
+        <div>
+         <label>Email: 
+           <input 
+           type="email" 
+           name="email"
+           placeholder="Email" required>
+         </label>
+        </div>
+      </fieldset>
 
+      <fieldset>
+        <legend>Información personal</legend>
+        <div>
+          <label>Telefono: 
+            <input 
+            type="tel" 
+            name="name"
+            placeholder="Telefono" required>
+          </label>
+        </div>
+      </fieldset>
+      <input type="submit" value="Enviar contacto">
     </form>
 </section>
 
